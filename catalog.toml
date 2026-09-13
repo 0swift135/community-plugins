@@ -2606,3 +2606,16 @@ icon = "image"
 description = "Cinematic horizontal wallpaper switcher carousel and bar widget."
 plugin_api = 15
 tags = ["bar", "panel", "shortcut", "wallpaper"]
+
+[[plugin]]
+id = "estvoid/sony_headphones"
+name = "Sony Headphones"
+version = "0.1.0"
+updated_at = 1789339826
+added_at = 1789339826
+author = "estvoid"
+license = "MIT"
+icon = "headphones"
+description = "Sony headphones battery and noise control (ANC / Ambient Sound) in the bar."
+plugin_api = 18
+tags = ["audio", "bar", "panel", "service", "hardware", "indicator"]
