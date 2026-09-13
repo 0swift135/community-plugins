@@ -2580,3 +2580,16 @@ icon = "server-2"
 description = "Manage QEMU/KVM virtual machines via libvirt"
 plugin_api = 28
 tags = ["bar", "panel", "service", "system", "utility"]
+
+[[plugin]]
+id = "notfinaldev/agentik"
+name = "Agentik"
+version = "0.1.0"
+updated_at = 1789338724
+added_at = 1789338724
+author = "notfinaldev"
+license = "MIT"
+icon = "sparkles"
+description = "Local coding-agent monitoring and safe multi-harness session chat."
+plugin_api = 24
+tags = ["bar", "desktop", "panel", "service", "ai", "productivity"]
