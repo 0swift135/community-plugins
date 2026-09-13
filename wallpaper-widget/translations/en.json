@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "wallpaper_dir": {
+      "label": "Wallpaper Directory",
+      "description": "Path to your wallpapers folder. Leave empty to use Noctalia's configured wallpaper folder."
+    },
+    "notify_on_change": {
+      "label": "Notify on Change",
+      "description": "Show a desktop notification when the wallpaper changes."
+    },
+    "close_on_apply": {
+      "label": "Close on Apply",
+      "description": "Automatically close the Wallpaper Widget carousel after applying a wallpaper."
+    }
+  },
+  "panel": {
+    "title": "Wallpaper Widget",
+    "loading": "Loading wallpapers...",
+    "active": "ACTIVE",
+    "hint": "←  →  ↑  ↓ to browse   ·   Enter to apply   ·   Space for random   ·   Esc to close",
+    "empty": "No wallpapers found in directory.",
+    "empty_hint": "Add images (.png, .jpg, .jpeg, .webp) to your wallpapers folder."
+  },
+  "shortcut": {
+    "label": "Wallpaper Widget"
+  },
+  "widget": {
+    "open": "Open carousel",
+    "click": "Click",
+    "toggle_panel": "Toggle panel",
+    "scroll": "Scroll",
+    "scroll_hint": "Next / previous",
+    "right_click": "Right-click",
+    "random_hint": "Random"
+  },
+  "notify": {
+    "switched": "Wallpaper Switched"
+  }
+}
