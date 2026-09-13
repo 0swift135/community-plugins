@@ -1506,8 +1506,8 @@ rev = "bc77e4ef1dc366d379a689bb57e3d860c9e92b8f"
 [[plugin]]
 id = "rylos/syncthing"
 name = "Syncthing"
-version = "2.1.0"
-updated_at = 1786903866
+version = "2.1.1"
+updated_at = 1789338175
 added_at = 1786903866
 author = "Marco Ziliani"
 license = "MIT"
