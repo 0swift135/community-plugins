@@ -2593,3 +2593,16 @@ icon = "sparkles"
 description = "Local coding-agent monitoring and safe multi-harness session chat."
 plugin_api = 24
 tags = ["bar", "desktop", "panel", "service", "ai", "productivity"]
+
+[[plugin]]
+id = "ashur-d/wallpaper-widget"
+name = "Wallpaper Widget"
+version = "1.0.0"
+updated_at = 1789339202
+added_at = 1789339202
+author = "ashur-d"
+license = "MIT"
+icon = "image"
+description = "Cinematic horizontal wallpaper switcher carousel and bar widget."
+plugin_api = 15
+tags = ["bar", "panel", "shortcut", "wallpaper"]
