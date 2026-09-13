@@ -162,6 +162,7 @@ body:
         - shell-command
         - shelly
         - sing-box-status
+        - sony_headphones
         - soundcore-buds
         - special-workspaces
         - speedtest-meter
