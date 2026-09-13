@@ -27,6 +27,7 @@ body:
       options:
         - --- SELECT ---
         - 9router-control
+        - agentik
         - ai-usagebar
         - airpods
         - ambient-sounds
