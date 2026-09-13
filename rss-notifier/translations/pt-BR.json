@@ -24,6 +24,10 @@
     "untitled_item": "(sem título)"
   },
   "settings": {
+    "feed_urls": {
+      "description": "Uma URL de feed RSS ou Atom por entrada (ex: https://exemplo.com/feed.xml).",
+      "label": "URLs dos feeds"
+    },
     "glyph": {
       "description": "Ícone mostrado na barra para este widget.",
       "label": "Ícone"
@@ -41,7 +45,7 @@
       "label": "Intervalo de atualização (minutos)"
     },
     "show_feed_images": {
-      "description": "Mostra a foto do feed (logo) nas cards, com a capa do item ou o favicon do site como alternativa.",
+      "description": "Mostra a imagem de capa de cada item (ou o favicon do site como alternativa) na lista de itens.",
       "label": "Mostrar imagens dos feeds"
     }
   },
