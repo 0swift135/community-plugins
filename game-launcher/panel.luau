@@ -348,7 +348,7 @@ local function renderGameList()
 end
 
 local function renderBody(content)
-  if loading and #filtered == 0 then
+  if loading then
     return ui.label({ text = "Scanning for games…", color = "on_surface_variant" })
   end
   if errorMsg ~= "" then
@@ -382,6 +382,8 @@ local function render()
   end
 end
 
+local scanGames
+
 local function buildBinary()
   if building then return end
   building = true
@@ -410,7 +412,7 @@ local function buildBinary()
   end
 end
 
-local function scanGames()
+function scanGames()
   if loading or building then return end
   if not binaryReady() then
     buildBinary()
@@ -467,31 +469,8 @@ local function scanGames()
 end
 
 
-local function loadCachedGames()
-  local ok, v = pcall(noctalia.state.get, "games")
-  if ok and type(v) == "table" and #v > 0 then
-    games = v
-    return true
-  end
-  local base = noctalia.getenv("XDG_CACHE_HOME")
-  if not base or #base == 0 then
-    local home = noctalia.getenv("HOME") or ""
-    base = home .. "/.cache"
-  end
-  local raw = noctalia.readFile(base .. "/gamelauncher/games.json")
-  if raw then
-    local parsed = noctalia.json.decode(raw)
-    if type(parsed) == "table" and #parsed > 0 then
-      games = parsed
-      return true
-    end
-  end
-  return false
-end
-
 function onOpen(context)
   selectedIndex = 0
-  loadCachedGames()
   filterGames(searchText)
   render()
   scanGames()
