@@ -196,6 +196,7 @@ body:
         - vpn-manager
         - w-engine
         - wallpaper-switcher
+        - wallpaper-widget
         - warp
         - web-launcher
         - web-search
