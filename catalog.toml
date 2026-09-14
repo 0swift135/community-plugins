@@ -2619,3 +2619,16 @@ icon = "headphones"
 description = "Sony headphones battery and noise control (ANC / Ambient Sound) in the bar."
 plugin_api = 18
 tags = ["audio", "bar", "panel", "service", "hardware", "indicator"]
+
+[[plugin]]
+id = "ahmedhossamdev/reading-list"
+name = "Reading List"
+version = "1.0.0"
+updated_at = 1789344916
+added_at = 1789344916
+author = "ahmedhossamdev"
+license = "MIT"
+icon = "bookmarks"
+description = "Save articles, books, and images locally with collections, reading progress, sharing, and Obsidian-friendly notes."
+plugin_api = 26
+tags = ["bar", "panel", "service", "productivity", "utility"]
