@@ -152,6 +152,7 @@ body:
         - pulsar-mouse
         - qrcode
         - quranwidget
+        - reading-list
         - region-recorder
         - remmina
         - rss-notifier
