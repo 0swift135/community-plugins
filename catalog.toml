@@ -2571,8 +2571,8 @@ tags = ["bar", "indicator", "niri"]
 [[plugin]]
 id = "tiobaka/vm-manager"
 name = "VM Manager"
-version = "0.1.0"
-updated_at = 1789266533
+version = "0.1.1"
+updated_at = 1789345107
 added_at = 1789266533
 author = "tiobaka"
 license = "MIT"
